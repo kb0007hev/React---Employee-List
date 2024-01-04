@@ -1,0 +1,44 @@
+*{
+  /* border: 3px solid black;  */
+}
+
+.employeeListItems{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px;
+  border: 3px solid black; 
+  /* outline: 2px solid black; */
+  width: 60%;
+}
+
+.title {
+   
+    font-size: 1rem; 
+    color: #000; 
+}
+
+
+.name {
+color: #000; 
+font-size: 1.5rem; 
+font-weight: 700;
+}
+
+.img {
+
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.employeeSection {
+  width: 75%;
+  height: 40%;
+  /* background-color: #605757; */
+  border-radius: 50px;
+  margin: 15px;
+}

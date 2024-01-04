@@ -1,0 +1,9 @@
+.employeeList{
+    height: 470px;
+    width: 401px;
+    outline: 3px solid black;
+    position: relative;
+    top: 128px;
+}
+
+

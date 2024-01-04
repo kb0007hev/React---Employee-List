@@ -1,0 +1,22 @@
+
+  /* .smallBox {
+    width: 100%;
+    height: 75px;
+    outline: 2px solid black;
+    position: relative;
+    top: -299px;
+    left: 50px;
+  } */
+
+  .employeeDirectory{
+    position: relative;
+    left: 274px;
+    margin: 5px;
+    font-size: 4.5rem;
+    width: fit-content;
+    padding: 29px;
+    border: 9px solid black;
+    border-radius: 20px;
+}
+
+

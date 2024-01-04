@@ -1,0 +1,11 @@
+.employee {
+  position: relative;
+  left: 1726px;
+  margin: 5px;
+  font-size: 4.5rem;
+  width: fit-content;
+  padding: 29px;
+  border: 9px solid black;
+  border-radius: 20px;
+  bottom: 1812px;
+}
