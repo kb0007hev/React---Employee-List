@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from "./comps/HomePage";
-import EmployeeHeader from "./comps/EmployeeHeader"
+import EmployeePage from "./comps/EmployeePage"
 import Header from "./comps/Header"; 
 
 // import styles from "./styles/App.module.css"
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
           <Routes>
                 <Route path="/" element={<HomePage/>} />
-                <Route path="/EmployeeHeader" element={<HomePage/>} />
+                <Route path="/:name" element={<EmployeePage/>} />
           </Routes>
             
     </BrowserRouter>
