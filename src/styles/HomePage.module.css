@@ -2,7 +2,7 @@
 
 .wholeContainer {
     display: flex; 
-    flex-direction: column;
+    flex-direction: flex;
     justify-content: center;
     align-items: center;
     position: relative; 
@@ -14,8 +14,9 @@
     /* width: 200px;
     height: 600px; */
     margin: .5px;
-    border: 2px solid black; 
+    border: 7px solid black; 
     position: relative; 
+  
 }
 
 .relativeContainer {

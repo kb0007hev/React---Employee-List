@@ -4,7 +4,7 @@ import Header from "./Header";
 import SearchBar from "./SearchBar";
 import EmployeeList from "./EmployeeList"
 import EmployeePage from "./EmployeePage"
-import EmployeeHeader from "./EmployeeHeader"
+
 
 function HomePage() {
   return (
@@ -15,7 +15,7 @@ function HomePage() {
               <SearchBar className="styles.employeeList" />
               <EmployeeList className="styles.box" /> 
               <EmployeePage /> 
-              <EmployeeHeader /> 
+            
       </div>
   </div>
   );

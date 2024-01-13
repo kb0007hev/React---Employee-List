@@ -12,8 +12,10 @@ return (
 
     <div className={styles.employeeList}>
       {employeeData.map((employee, index) => (
+
         <div className={styles.employeeSection}>
-        <EmployeeListItem key={index + 1} employee={employee} />
+        <EmployeeListItem key={index} employee={employee} />
+
         </div>
       ))}
     </div>

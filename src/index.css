@@ -1,0 +1,12 @@
+.employeePage{
+    margin: auto;
+    width: 50%;
+}
+
+.employeePage h2{
+    font-size: 40px;
+}
+
+.employeePage img{
+    width: 40%; 
+}

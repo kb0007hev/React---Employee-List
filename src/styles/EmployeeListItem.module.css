@@ -1,6 +1,3 @@
-*{
-  /* border: 3px solid black;  */
-}
 
 .employeeListItems{
   display: flex;
@@ -11,7 +8,8 @@
   padding: 15px;
   border: 3px solid black; 
   /* outline: 2px solid black; */
-  width: 60%;
+  width: 100%;
+  align-items: ;
 }
 
 .title {
@@ -36,9 +34,10 @@ font-weight: 700;
 }
 
 .employeeSection {
-  width: 75%;
+  width: 50%;
   height: 40%;
   /* background-color: #605757; */
   border-radius: 50px;
-  margin: 15px;
+  margin: auto;
+  /* margin-left: 350px; */
 }

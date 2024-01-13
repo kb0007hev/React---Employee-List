@@ -1,9 +1,11 @@
 .employeeList{
     height: 470px;
-    width: 401px;
+    width: 100%;
     outline: 3px solid black;
     position: relative;
     top: 128px;
+    margin-left: 280px;
+    
 }
 
 

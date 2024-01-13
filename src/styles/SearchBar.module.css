@@ -4,9 +4,8 @@
   outline: 2px solid black;
   position: relative;
   top: 19px;
-  left: 180px;
   border-radius: 50px;
-  margin: 10px;
+  margin: 30px;
   flex-grow: 1;
   width: 1000px;
 }
@@ -14,5 +13,6 @@
 .container{
   display: flex;
   width: 900px;
+  margin: auto;
 }
    

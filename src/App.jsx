@@ -16,7 +16,6 @@ function App() {
                 <Route path="/" element={<HomePage/>} />
                 <Route path="/:name" element={<EmployeePage/>} />
           </Routes>
-            
     </BrowserRouter>
 
   );
