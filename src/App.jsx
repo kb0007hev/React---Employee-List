@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
           <Routes>
                 <Route path="/" element={<HomePage/>} />
-                <Route path="/:name" element={<EmployeePage/>} />
+                <Route path="/:name" element={<EmployeePage/>} />+/6
           </Routes>
     </BrowserRouter>
 

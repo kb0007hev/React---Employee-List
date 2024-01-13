@@ -4,12 +4,13 @@ import "../index.css"
 import data from "../data"
 
 function EmployeePage(props) {
-const {name}= useParams()
+const {name} = useParams()
 
 console.log(data)
 
   const employee = data.find((item) => {
       return  item.name === name
+    
        
     })
     console.log(employee)
